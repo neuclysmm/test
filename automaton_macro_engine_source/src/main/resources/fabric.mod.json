@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "automaton",
+  "version": "1.0.0",
+  "name": "Automaton Macro Engine",
+  "description": "Intelligent macro automation with in-game GUI editor and JSON file management.",
+  "authors": ["Automaton Dev"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.automaton.AutomatonMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21",
+    "java": ">=21"
+  }
+}
